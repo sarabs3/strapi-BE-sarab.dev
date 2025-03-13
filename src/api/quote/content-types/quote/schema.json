@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quotes",
+  "info": {
+    "singularName": "quote",
+    "pluralName": "quotes",
+    "displayName": "quotes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "blocks"
+    },
+    "link": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}
